@@ -1,16 +1,20 @@
-#include <stdio.h>
-
-int main()
+#include "main.h"
+/**
+ * main - Entry point
+ * Description: prints '_putchar \n'
+ * Return: Always 0 (success)
+ */
+int main(void)
 {
-  int i;
+char str[] = "_putchar\n";
+int i = 0;
 
-  putchar ('X');
-  putchar (' ');
-  for (i=1; i<=10; i++)
-    {
-      putchar ('!');
-    }
-  putchar ('\n');
+while (str[i] != '\0')
+	{
+	char c = str[i];
 
-  return 0;
+	_putchar(c);
+	i++;
+	}
+return (0);
 }
