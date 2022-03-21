@@ -1,13 +1,17 @@
 #include "main.h"
-#include <stdio.h>
 
-int main(void)
+/**
+ * _strlen - checks the length of a string
+ * @s: string to check
+ *
+ * Return: int length of the string
+ */
+
+int _strlen(char *s)
 {
-	char *str;
-	int len;
+	int length = 0;
 
-	str = "Holberton!";
-	len = _strlen(str);
-	printf("%d\n", len);
-	return (0);
+	while (s[length])
+		length++;
+	return (length);
 }
