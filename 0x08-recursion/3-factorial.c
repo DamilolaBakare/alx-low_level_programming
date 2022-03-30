@@ -7,7 +7,7 @@
  * Return: If n > 0 - the factorial of n.
  *         If n < 0 - 1 to indicate an error.
  */
-int facorial(int n)
+int factorial(int n)
 {
 	int result = n;
 
