@@ -1,12 +1,5 @@
-#ifndef FILE_MAIN
-#define FILE_MAIN
-
-/*
- * File: holberton.h
- * Auth: Firdaus
- * Desc: Header file containing the prototypes of all functions
- *       included in the static library libholberton.a.
- */
+#ifndef _FILE_MAIN_
+#define _FILE_MAIN_
 
 int _putchar(char c);
 int _islower(int c);
